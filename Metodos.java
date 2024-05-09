@@ -29,7 +29,37 @@ class Metodos
 	{}
 	
 	void P_MaiorMenor (Estatistica[] et)
-	{}
+	{
+		int i = 0;
+		int op = 0;
+		int valor = et[i].qtd_Acidente;
+		int valorx = 0 
+			
+		while (op!=9)
+		{
+			op = Integer.parseInt(JOptionPane.showInputDialog("digite o numero a partir da ação desejada\n" + 
+								  "1 - cidade com maior número de acidentes\n" +
+								  "2 - cidade com menor número de acidentes\n" +
+								  " 9 - volta"));
+			switch (op)
+			{
+				case 1:
+					for(i=0; i>10; i++)
+					{
+						if (valor<et[i].qtd_Acidente)
+						{
+							valo = <et[i].qtd_Acidente;
+						}
+					}
+							
+							
+					
+			}
+					      
+		}
+
+		
+	}
 	
 	void P_Acima (Estatistica[] et)
 	{}
